@@ -1,0 +1,15 @@
+To install please:
+
+1) Go to the top directory and invoke cmake like:
+	
+	cmake CMakeLists.txt
+
+2) Call make in order to compile the sources
+
+	make
+
+3) Do make install to install the headers
+
+	make install
+
+4) Do make test, if nothing shows up you are good to go.

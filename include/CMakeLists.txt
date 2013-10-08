@@ -1,0 +1,1 @@
+install (FILES DirGraphProc.h DirWeightGraph.hh EagerPrimMST.hh edge.hh Graph.h indexPriorityQ.cpp kruskalMST.hh  LazyPrimMST.hh Mybag.hh ShortestPath.hh undirGraph.hh undirGraphProc.hh unionFinder.hh weightedGraph.hh DESTINATION include)

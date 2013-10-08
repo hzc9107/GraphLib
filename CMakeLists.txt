@@ -4,3 +4,8 @@ project (GraphLib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${GraphLib_SOURCE_DIR}/lib)
 
 add_subdirectory(src)
+
+add_subdirectory(include)
+
+add_subdirectory(test)
+
