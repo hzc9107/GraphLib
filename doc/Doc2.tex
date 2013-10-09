@@ -233,7 +233,7 @@
         \begin{tabular}{l c}
             Hugo Z\'u\~niga C. & A96988 \\
             Ernesto C\'espedes M. & AXXXXX \\
-            Diego \'Alvarez A. & AXXXXX \\
+            Diego \'Alvarez A. & A80357 \\
         \end{tabular}
         \end{flushright}
 
@@ -650,7 +650,7 @@ su peso total es: 1.81
 
 \subsubsection{Algoritmo de Prim}
 
-Este algoritmo es un caso especial del método genérico mostrado en la sección anterior. Tiene la propiedad de que cada borde en el conjunto A siempre forma un solo árbol. Como lo muestra la figura ref3, el árbol empieza de un vértice raiz arbitrario $r$ y crece hasta que se expanda por todos los vértices en V. Cada paso agrega un borde liviano al árbol A, que lo conecta con un vértice aislado, el cual es seguro para A; por lo tanto cuando el algoritmo termina, A forma un árbol de expansión mínima. 
+Este algoritmo es un caso especial del método genérico mostrado en la sección anterior. Tiene la propiedad de que cada borde en el conjunto A siempre forma un solo árbol. Como lo muestra la figura \ref{MST4}, el árbol empieza de un vértice raiz arbitrario $r$ y crece hasta que se expanda por todos los vértices en V. Cada paso agrega un borde liviano al árbol A, que lo conecta con un vértice aislado, el cual es seguro para A; por lo tanto cuando el algoritmo termina, A forma un árbol de expansión mínima. 
 
 \textbf{Estructuras de datos:} Estas van a representar los vértices en el árbol, las bordes en el árbol, y los bordes que cruzan los cortes, de la siguiente manera:
 \begin{itemize}
@@ -677,7 +677,7 @@ Este algoritmo es un caso especial del método genérico mostrado en la sección
         \DrawArrow{xshift=11cm,yshift=-18cm,scale=0.4}
         \DrawEJcGraph{6,7,0,1,2,3,5,4}{}{}{7/0,3/2,7/1,0/2,5/7,5/4,2/6}{yshift=-9cm,xshift=6.7cm}
     \end{tikzpicture}
-    \caption{Algoritmo paso a paso de Prim Eager, bordes en el MST(azul), bordes livianos(rojo grueso), bordes en pq(rojos delgados)}
+    \caption{Algoritmo paso a paso de Prim Eager para el grafo TinyEW, bordes en el MST(azul), bordes livianos(rojo grueso), bordes en pq(rojos delgados)}
     \label{MST4}
 \end{figure}
 
